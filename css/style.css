@@ -1,0 +1,31 @@
+body {
+    margin: 20px;
+    font-family: Arial;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 6px solid #023e8a;
+	border-radius: 20px;
+    background: url('../img/card-template.jpg') no-repeat
+}
+
+.card h2{
+	color: #0353a4;
+}
+.card h3{
+	color: #f3722c;
+	padding-bottom: 10px;
+}
+.card h4{
+	color: #31572c;
+}
+
+#profile_pic {
+	width: 150px;
+}
